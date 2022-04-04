@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #7c7c7c;
+  background-color: #1DB954;
 }
 
 header h1 {
@@ -11,38 +11,50 @@ header h1 {
 }
 
 .image-album {
-  width: 200px;
+  width: 100px;
 }
 
-.Song-playlist {
+.Song {
   border: 2px solid #1C0A00;
-  border-radius: 20px;
-  background-color: #22b61d;
-  padding: 40px;
-  width: 400px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 500px;
   margin: auto;
   left: 0;
   right: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.Song-playlist p {
+.Song p {
   font-size: 16px;
   color: #1C0A00;
-  line-height: 15px;
+  line-height: 10px;
 }
 
-.Song-playlist button {
-  background-color: #ffffff;
+table {
+  width: 100%;
+}
+
+td img {
+  width: 30%;
+}
+
+.detail-song {
+  text-align: left;
+  width: 70%;
+}
+
+.Song button {
+  background-color: #1DB954;
   border: 1.5px solid #1C0A00;
   border-radius: 8px;
   color: #1C0A00;
-  margin-top: 15px;
-  padding: 10px 20px;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .search-bar {
